@@ -62,7 +62,7 @@ export default function AboutMe() {
                 <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400">
                   Pushkar Mhaske
                 </span>{" "}
-                — a passionate Computer Science Engineering student at{" "}
+                — a passionate Electronics & Telecommunication Engineering student at{" "}
                 <span className="font-semibold text-slate-900 dark:text-slate-100">
                   MIT Academy of Engineering, Pune
                 </span>
@@ -70,20 +70,16 @@ export default function AboutMe() {
               </p>
 
               <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
-                I began my journey with a Diploma in Computer Technology from K K Wagh Polytechnic, 
-                where I discovered my love for building solutions that merge{" "}
-                <span className="font-semibold text-purple-600 dark:text-purple-400">
-                  creativity with code
-                </span>
-                .
+                Over time, I’ve developed a strong interest in embedded systems, communication technologies, and IoT innovations. I mainly work with C/C++, and I enjoy building solutions that combine electronics, software, and real-world problem-solving.
+                
               </p>
 
               <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed">
-                I specialize in developing modern web applications using the{" "}
-                <span className="font-semibold text-blue-600 dark:text-blue-400">MERN stack</span>, 
+                My projects often focus on creating{" "}
+                <span className="font-semibold text-blue-600 dark:text-blue-400">efficient embedded</span>, 
                 and I&apos;m also fascinated by{" "}
-                <span className="font-semibold text-green-600 dark:text-green-400">IoT</span> {" "}
-                innovations. My projects often focus on solving meaningful real-world problems.
+                <span className="font-semibold text-green-600 dark:text-green-400">IoT systems</span> {" "}
+                that bring meaningful impact through technology.
               </p>
             </div>
 

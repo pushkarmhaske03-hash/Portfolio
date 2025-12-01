@@ -25,9 +25,9 @@ export default function Profile() {
             <h1 className="text-4xl font-bold mb-2">Pushkar Mhaske</h1>
             <p className="text-xl mb-4">Aspiring Software Engineer  |  Full Stack Developer  |  AIML</p>
             <p className="max-w-md leading-relaxed">
-              “Hi, I’m Pushkar — a B.Tech Computer Science student passionate about building modern web apps, scalable systems and solving complex problems
+              ““Hi, I’m Pushkar — a B.Tech Electronics & Telecommunication Engineering student passionate about embedded systems, communication technologies, modern electronics, and solving real-world engineering problems. I mainly work with C/C++ and enjoy building efficient, scalable solutions.”
             </p>
-          </div>
+          </div>  
 
           {/* Contact Info */}
           <div className="space-y-3 flex flex-col lg:items-start items-center">
@@ -190,63 +190,95 @@ export default function Profile() {
             </div>
           </div>
 
-          {/* Experience Section */}
+          {/* Internship And Programs Section */}
           <div>
             <h2 className="text-2xl font-bold mb-6 border-b border-slate-300 dark:border-slate-700 pb-2">
-              Experience
+              Internship And Programs
             </h2>
-
             <div className="space-y-8">
-              {/* Experience Item 1 */}
-              <div className="relative pl-8 border-l-2 border-slate-300 dark:border-slate-700">
-                <div className="absolute left-0 top-6 w-4 h-4 bg-slate-400 dark:bg-slate-400 rounded-full -translate-x-[9px]"></div>
-                <div className="flex justify-between items-start mb-2">
-                  <div>
-                    <h3 className="text-lg font-semibold">Full Stack Developer</h3>
-                    <p className="text-slate-600 italic dark:text-slate-400 text-sm">Intern at EventDoor</p>
+              {/* Certifications & Courses */}
+              <div className="mt-6 pt-6 border-t border-slate-300 dark:border-slate-700">
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="flex items-start gap-2">
+                    <span className="text-slate-400 mt-1">•</span>
+                    <div>
+                      <p className="font-medium">Artificial Intelligence Fundamentals</p>
+                      <p className="text-slate-600 dark:text-slate-400 text-sm">IBM SkillsBuild (2025)</p>
+                    </div>
                   </div>
-                  <span className="text-slate-600 dark:text-slate-400 text-sm whitespace-nowrap">
-                    2025 - Present
-                  </span>
+                  <div className="flex items-start gap-2">
+                    <span className="text-slate-400 mt-1">•</span>
+                    <div>
+                      <p className="font-medium">Programming with Python</p>
+                      <p className="text-slate-600 dark:text-slate-400 text-sm">Internshala (2024)</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-slate-400 mt-1">•</span>
+                    <div>
+                      <p className="font-medium">Python Essentials 1 & 2</p>
+                      <p className="text-slate-600 dark:text-slate-400 text-sm">Cisco Networking Academy (2024)</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-slate-400 mt-1">•</span>
+                    <div>
+                      <p className="font-medium">Digital 101</p>
+                      <p className="text-slate-600 dark:text-slate-400 text-sm">NASSCOM SSC (2024)</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-slate-400 mt-1">•</span>
+                    <div>
+                      <p className="font-medium">Java Programming</p>
+                      <p className="text-slate-600 dark:text-slate-400 text-sm">Great Learning Academy (2025)</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-slate-400 mt-1">•</span>
+                    <div>
+                      <p className="font-medium">Generative AI</p>
+                      <p className="text-slate-600 dark:text-slate-400 text-sm">Internshala (2025)</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-slate-400 mt-1">•</span>
+                    <div>
+                      <p className="font-medium">HTML</p>
+                      <p className="text-slate-600 dark:text-slate-400 text-sm">Cisco Networking Academy (2025)</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-slate-400 mt-1">•</span>
+                    <div>
+                      <p className="font-medium">CSS</p>
+                      <p className="text-slate-600 dark:text-slate-400 text-sm">Cisco Networking Academy (2025)</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-slate-400 mt-1">•</span>
+                    <div>
+                      <p className="font-medium">Renewable Energy Technologies and Grid Integration</p>
+                      <p className="text-slate-600 dark:text-slate-400 text-sm">L&T EduTech (2025)</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-slate-400 mt-1">•</span>
+                    <div>
+                      <p className="font-medium">Simulink</p>
+                      <p className="text-slate-600 dark:text-slate-400 text-sm">MATLAB (2025)</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-slate-400 mt-1">•</span>
+                    <div>
+                      <p className="font-medium">Simscape</p>
+                      <p className="text-slate-600 dark:text-slate-400 text-sm">MATLAB (2025)</p>
+                    </div>
+                  </div>
                 </div>
-                <p className="text-slate-700 dark:text-slate-300 text-sm leading-relaxed">
-                  Worked as a Full Stack Developer at EventDoor, developing dashboards in their platform. Gained proficiency in Next.js, Node.js, PostgreSQL (Neon + Drizzle ORM)
-                </p>
               </div>
-
-              {/* Experience Item 2 */}
-              <div className="relative pl-8 border-l-2 border-slate-300 dark:border-slate-700">
-                <div className="absolute left-0 top-6 w-4 h-4 bg-slate-400 dark:bg-slate-400 rounded-full -translate-x-[9px]"></div>
-                <div className="flex justify-between items-start mb-2">
-                  <div>
-                    <h3 className="text-lg font-semibold">Web Developer</h3>
-                    <p className="text-slate-600 italic dark:text-slate-400 text-sm">Intern at Golden Dreams Software Solutions</p>
-                  </div>
-                  <span className="text-slate-600 dark:text-slate-400 text-sm whitespace-nowrap">
-                    2023
-                  </span>
-                </div>
-                <p className="text-slate-700 dark:text-slate-300 text-sm leading-relaxed">
-                  Successfully completed an internship at Golden Dream Software Solutions. Gained proficiency in HTML, CSS, JavaScript, and jQuery through hands-on training.
-                </p>
-              </div>
-
-              {/* Experience Item 3 */}
-              {/* <div className="relative pl-8 border-l-2 border-slate-700">
-                <div className="absolute left-0 top-6 w-4 h-4 bg-slate-400 rounded-full -translate-x-[9px]"></div>
-                <div className="flex justify-between items-start mb-2">
-                  <div>
-                    <h3 className="text-lg font-semibold">Full Stack Developer</h3>
-                    <p className="text-slate-400 text-sm">StartUp Inc</p>
-                  </div>
-                  <span className="text-slate-400 text-sm whitespace-nowrap">
-                    2015 - 2017
-                  </span>
-                </div>
-                <p className="text-slate-300 text-sm leading-relaxed">
-                  Built scalable web applications using React and Node.js
-                </p>
-              </div> */}
             </div>
           </div>
         </div>
