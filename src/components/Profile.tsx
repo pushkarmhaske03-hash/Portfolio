@@ -33,28 +33,23 @@ export default function Profile() {
           <div className="space-y-3 flex flex-col lg:items-start items-center">
             <div className="flex items-center lg:justify-start justify-center gap-3">
               <IconMail className="w-5 h-5" />
-              <span>rohitthorat680@gmail.com</span>
+              <span>pushkarmhaske174@gmail.com</span>
             </div>
             <div className="flex items-center lg:justify-start justify-center gap-3">
               <IconMapPin className="w-5 h-5" />
               <span>Pune, India</span>
             </div>
             <div className="flex items-center lg:justify-start justify-center gap-3">
-                <a href="https://github.com/roht2103">
+                <a href="https://github.com/pushkar174-coder">
                     <IconBrandGithub className="w-5 h-5 cursor-pointer" />
                 </a>
-                <a href="https://linkedin.com/in/rohit-thorat-502566246">
+                <a href="https://www.linkedin.com/in/pushkar-mhaske-71a710291/">
                     <IconBrandLinkedin className="w-5 h-5 cursor-pointer" />
                 </a>
-                <a href="https://x.com/RohitTh53744122">
+                <a href="https://x.com/Pushkar_0095?t=0t1v9bjhKzb2EjmeXoo8ig&s=09">
                     <IconBrandTwitter className="w-5 h-5 cursor-pointer" />
                 </a>
             </div>
-            <a href="/Rohit Vishwas Thorat_Resume.pdf">
-            <Button className="cursor-pointer" variant="secondary">
-              <IconFileText/>
-              View Resume
-            </Button></a>
           </div>
         </div>
 

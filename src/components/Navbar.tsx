@@ -41,7 +41,7 @@ export default function NavBar() {
         {/* Desktop Navigation */}
         <NavBody>
           <NavbarLogo />
-          {/* <p>ROHIT</p> */}
+          {/* <p>PUSHKAR</p> */}
           <NavItems items={navItems} />
           <NavbarButton variant="secondary">
             <ModeToggle />
