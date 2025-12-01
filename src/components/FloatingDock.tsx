@@ -45,14 +45,12 @@ export function Floatingdock() {
       icon: (
         <IconBrandLeetcode className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://leetcode.com/u/8Si7lTWozd/",
     },
     {
       title: "Instagram",
       icon: (
         <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://instagram.com/rxhit_27",
     },
   ];
   return (
